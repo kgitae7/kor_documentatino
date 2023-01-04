@@ -2,7 +2,7 @@
 
 ## Creating a new pet
 
-{% swagger baseUrl="https://api.myapi.com/v1" method="post" path="/pet" summary="Create pet." %}
+{% swagger baseUrl="https://api.myapi.com/v1" method="put" path="/pet" summary="Create pet." %}
 {% swagger-description %}
 Creates a new pet.
 {% endswagger-description %}
